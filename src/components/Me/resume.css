@@ -46,16 +46,17 @@
 .set-detail {
   padding-left: 1%;
   font-size: 16px;
+  list-style: none;
 }
 
-.codestates {
-  padding: 0;
-  color: #15aabf;
-  text-decoration-color: #15aabf;
+.set-detail::before {
+  content: "▶︎  ";
+  color: #303f9f;
+  font-size: 12px;
 }
 
-.contact {
-  font-size: 18px;
+.italic {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 935px) {
@@ -109,13 +110,13 @@
     font-size: 16px;
   }
 
-  .codestates {
-    padding: 0;
-    color: #15aabf;
-    text-decoration-color: #15aabf;
+  .set-detail::before {
+    content: "▶︎  ";
+    color: #303f9f;
+    font-size: 12px;
   }
 
-  .contact {
-    font-size: 18px;
+  .italic {
+    font-style: italic;
   }
 }

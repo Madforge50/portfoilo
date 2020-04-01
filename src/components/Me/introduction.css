@@ -11,13 +11,11 @@
 .greeting-sentence {
   padding: 3% 0 7% 0;
 }
-.greeting {
-  font-size: 28px;
-  font-weight: bolder;
+.contact {
+  font-size: 18px;
 }
 img {
   width: 100%;
-  border-radius: 0.5em;
   align-self: center;
 }
 .detail-sentence {
@@ -40,13 +38,11 @@ img {
   .greeting-sentence {
     padding: 3% 0 10% 0;
   }
-  .greeting {
-    font-size: 28px;
-    font-weight: bolder;
+  .contact {
+    font-size: 18px;
   }
   img {
     width: 100%;
-    border-radius: 0.5em;
     align-self: center;
   }
   .detail-sentence {
