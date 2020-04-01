@@ -1,31 +1,9 @@
 import React from "react";
-import { FaPaperclip, FaBlogger } from "react-icons/fa";
-import "./resume.css";
+import "./me.css";
 
 const Resume = () => {
   return (
     <div className="resume-container">
-      <div className="resume-box">
-        <a
-          className="resume-link"
-          href="https://drive.google.com/file/d/19e4PKjY-jtd7Un-YcYSEWwsvYa27fGmy/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaPaperclip size={18} />
-          Resume
-        </a>
-        <a
-          className="resume-link"
-          href="https://velog.io/@naseriansuzie"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaBlogger size={20} />
-          Blog
-        </a>
-      </div>
-
       <div className="resume-box">
         <h2 className="title">Where I Am At</h2>
 
