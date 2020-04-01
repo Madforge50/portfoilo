@@ -14,6 +14,10 @@
   padding: 3% 0 7% 0;
 }
 
+.profile-img {
+  padding-bottom: 5%;
+}
+
 .contact {
   font-size: 18px;
 }
@@ -110,6 +114,10 @@ img {
 
   .contact {
     font-size: 18px;
+  }
+
+  .profile-img {
+    padding-bottom: 5%;
   }
 
   img {

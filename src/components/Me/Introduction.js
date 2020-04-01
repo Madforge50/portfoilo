@@ -17,7 +17,7 @@ const Introduction = () => {
           <h2 className="greeting">Currently living in Seoul, South Korea.</h2>
         </div>
 
-        <img src={photo} alt="Seungsu Kim" />
+        <img className="profile-img" src={photo} alt="Seungsu Kim" />
 
         <div className="resume-box">
           <a
