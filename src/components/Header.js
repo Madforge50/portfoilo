@@ -9,13 +9,31 @@ const Header = ({ currentLink, setCurrentLink }) => {
         <Link
           className="name"
           to="/portfolio"
-          onClick={() => setCurrentLink("project")}
+          onClick={() => setCurrentLink("me")}
         >
-          SOOJI KIM
+          SEUNGSU KIM
         </Link>
-        <p>성장을 즐기고, 가치를 만들어 가는 개발자</p>
+        <p>making learning more fun and doable</p>
       </div>
       <div className="header-right">
+        <span className="hide">
+          <Link
+            className={currentLink === "me" ? "link underLine" : "link"}
+            to="/portfolio/me"
+            onClick={() => setCurrentLink("me")}
+          >
+            Me
+          </Link>
+        </span>
+        <span className="hide">
+          <Link
+            className={currentLink === "class" ? "link underLine" : "link"}
+            to="/portfolio/class"
+            onClick={() => setCurrentLink("class")}
+          >
+            Class
+          </Link>
+        </span>
         <span className="hide">
           <Link
             className={currentLink === "project" ? "link underLine" : "link"}
@@ -23,15 +41,6 @@ const Header = ({ currentLink, setCurrentLink }) => {
             onClick={() => setCurrentLink("project")}
           >
             Project
-          </Link>
-        </span>
-        <span>
-          <Link
-            className={currentLink === "me" ? "link underLine" : "link"}
-            to="/portfolio/me"
-            onClick={() => setCurrentLink("me")}
-          >
-            Me
           </Link>
         </span>
       </div>
